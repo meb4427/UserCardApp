@@ -1,0 +1,41 @@
+body {
+    background-color: #333333;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    width: 60%;
+    border-radius:10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description {
+    width: 60%;
+    padding: 20px;
+}
+
+.description h1 {
+    font-size: 20px;
+    margin: 10px 0; 
+}
+
+.description div {
+    line-height: 10px;
+    padding: 5px 0;
+}
+
+.portrait {
+    width: 30%;
+    margin: auto;
+}
+
+img {
+    max-width: 100px; 
+}
