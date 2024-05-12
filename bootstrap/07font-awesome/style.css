@@ -1,0 +1,12 @@
+a::before {
+    font-family: "Font Awesome 5 free";
+    content: "\f1c1";
+    margin-right: 3px;
+}
+
+h1::before {
+    font-family: "Font Awesome 5 free";
+    content: "\f058";
+    margin-right: 3px;
+    color: green;
+}
