@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet" />
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">        
+        <title>Hello, Recursion</title>
+    </head>
+    <body>   
+<!-- グローバルナビゲーション -->
+        <div class="bg-light sticky-top container-fluid">
+            <!-- https://getbootstrap.com/docs/4.4/components/navbar/#supported-content を参考にナビバーを作成してください -->
+            <nav class="container navbar sticky-top navbar-expand-lg bg-light">
+                <a href="#" class="navbar-brand">
+                    <img src="https://img.icons8.com/color-glass/344/top-view-bird.png" width="70" height="70">
+                    Recursion
+                </a>
+        
+            <!-- toggler (ハンバーガーメニューのボタン) を公式ドキュメントからコピペして作成してください-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+            <!-- collapse スマホ画面では隠れるメニュー -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-center mr-auto">
+                        <li class="nav-item active ml-3">
+                            <a href="#" class="nav-link">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ml-3">
+                            <a href="#" class="nav-link">Why Recursion?</a>
+                        </li>
+                        <li class="nav-item ml-3">
+                            <a href="#" class="nav-link">Community</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item ml-3">
+                            <a href="#" class="nav-link">ログイン</a>
+                        </li>
+                        <li class="nav-item ml-3">
+                            <a href="#" class="btn btn-outline-secondary">会員登録</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <!-- Contents Top-->
+        <!-- グリッドシステム container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+            <!-- col : Text Area -->
+            <div class="col-12 col-md-5 d-flex align-items-center py-4">
+                <div class="container py-2">
+                    <p class="font-weight-bold">Recursion Community</p>
+                    <h3 class="font-weight-bold">Let's code together</h3>
+                    <!-- 見本を参考に文字を強調してください -->
+                    <p class="pt-3">
+                        <strong class="bg-warning">
+                            「一人でソフトウェアを作れない」
+                        </strong>
+                        を解決するコミュニティ。より実践的な問題を練習して、質の高いエンジニアを目指しましょう。
+                    </p>
+                    <!-- Button を作成してください-->
+                    <a href="#" class="btn btn-primary btn-lg mt-3">
+                        コミュニティに入る
+                    </a>
+                </div>
+            </div>
+            <!-- col : Image Area -->
+            <div class="col-12 col-md-7 d-flex align-items-center">
+                <div class="container">
+                    <img src="https://cdn.pixabay.com/photo/2015/01/27/19/34/giraffe-614141_960_720.jpg" alt="" class="img-fluid" />
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <!-- Contents Middle -->
+        <!-- container -->
+        <div class="container text-center text-md-left py-3">
+        <!-- row : fontawesome speach bubble section-->
+            <div class="row">
+            <!-- col : Text Area -->
+                <div class="col-12 col-md-6 py-4">
+                    <div class="container">
+                        <h3 class="font-weight-bold pt-2">Ask questions and give answers</h3>
+                        <p class="pt-2">詰まった時はいつでもコミュニティで質問することができます。適切なアドバイスをもらうこと</p>
+                    </div>
+                </div>
+
+                <!-- col : Icon Area 中央寄せ -->
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center py-4">
+                    <!-- Font Awesomeの公式サイト https://fontawesome.com/icons で Kit コードを発行し読み込みましょう -->
+                    <i class="fas fa-comments fa-7x text-success"></i>
+                </div>
+            </div>
+
+            <!-- row : fontawesone headphone section 以下アイコンの位置を変えて繰り返し-->
+            <div class="row">
+                <!-- col : Text Area -->
+                <div class="col-12 col-md-6 py-4">
+                    <div class="container">
+                        <h3 class="font-weight-bold po-2">Experience real-time coding</h3>
+                        <p class="pt-2">コーディング問題、プロジェクトをライブストリーミングで解説します。一流エンジニアがどのようなプロセスでコーディングをするかを学習することができます。</p>
+                    </div>
+                </div>
+                <!-- col : Icon Area 左寄せ -->
+                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start align-items-center py-4">
+                    <i class="fas fa-headphones fa-7x text-danger"></i>
+                </div>
+            </div>
+
+            <!-- fontawesome trophy section-->
+            <div class="row">
+                <!-- col : Text Area  -->
+                <div class="col-12 col-md-6 py-4">
+                    <div class="container">
+                        <h3 class="font-weight-bold pt-2">Learn with other learner</h3>
+                        <p class="pt-2">Recursionのコミュニティを通して、コンピュータサイエンスに興味のある仲間を見つけることができるので、モチベーションを維持したまま学習を続けることができます。</p>
+                    </div>
+                </div>
+
+                <!-- col : Icon Area 右寄せ -->
+                <div class="col-12 col-md-6 d-flex justigy-content-center justify-content-md-end align-items-center py-4">
+                    <i class="fas fa-trophy fa-7x text-warning"></i>
+                </div>
+            </div>        
+        </div>
+        
+        <!-- Contents Bottom-->
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+            <!-- col : Text Area -->
+            <div class="col-12 col-md-6 py-4 d-flex align-items-center text-center text-md-left">
+                <div class="container py-2">
+                    <h3 class="font-weight-bold">Apply knowledge for reality</h3>
+                    <p class="pt-3">実用的なコーディング問題、プロジェクトを解いて、自分でソフトウェアを作ることができるエンジニアを目指しましょう。</p>
+                </div>
+            </div>
+            <!-- col : Image Area -->
+            <!-- 画像URL : https://cdn.pixabay.com/photo/2017/01/28/11/00/white-tailed-eagle-2015098__340.jpg -->
+            <div class="col-12 col-md-6 d-flex align-items-center">
+                <div class="container">
+                    <img src="https://cdn.pixabay.com/photo/2017/01/28/11/00/white-tailed-eagle-2015098__340.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <!-- Conversion Button Area-->
+        <div class="bg-primary mt-5">
+            <div class="container text-center p-5">
+                <h2 class="text-white">Recursionのコミュニティに参加しよう。</h2>
+                <p class="text-white pt-2">プレミアム会員になって効率的に学習を進めよう。</p>
+            <!-- Button -->
+            <!-- ボタンを作成してください -->
+                <a href="#" class="btn btn-warning font-weight-bold mt-3">コミュニティに参加する</a>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer my-3">
+            <div class="container">
+                <div class="text-center">
+                    <!-- コピーライト smallタグを使い文字を小さくしましょう -->
+                    <p>
+                        <small>
+                            Copyright &copy; 2020 Recursion
+                        </small>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- ナビバーを動かすためのjs -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>  
+    </body>
+</html>
